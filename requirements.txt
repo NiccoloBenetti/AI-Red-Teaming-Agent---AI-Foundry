@@ -1,0 +1,10 @@
+ipykernel;
+python-dotenv;
+azure-ai-projects;
+azure-identity;
+openai == 1.77.0;
+dotenv;
+azure-ai-evaluation[redteam];
+semantic-kernel;
+python-dotenv;
+requests;
