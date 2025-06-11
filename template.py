@@ -12,7 +12,7 @@ import time
 from typing import Optional
 from semantic_kernel.agents import ChatCompletionAgent, ChatHistoryAgentThread
 from semantic_kernel.connectors.ai.open_ai import AzureChatCompletion
-from _semantic_kernel_plugin import RedTeamPlugin
+from azure.ai.evaluation.red_team._agent._semantic_kernel_plugin import RedTeamPlugin
 
 from dotenv import load_dotenv
 load_dotenv("credentials.env", override=True)
